@@ -13,30 +13,30 @@ import FotoFooter2 from "assets/our_story.png";
 function App() {
   return (
       <>
-      <h1>Handbags & Purses</h1>
+        <h1>Handbags & Purses</h1>
 
         <nav>
           <Button
-            description="to the collection"
-            >
+              description="to the collection"
+          >
           </Button>
 
           <Button>
-              description="shop all bags"
+            description="shop all bags"
           </Button>
 
           <Button
-            description='pre-order'>
+              description='pre-order'>
           </Button>
 
         </nav>
 
         <main>
           <Product
-            InformationSale= "Best-seller"
-            Image = {TasFotoEen}
-            NaamTas="Handybag"
-            Prijs="€400,">
+              InformationSale= "Best-seller"
+              Image = {TasFotoEen}
+              NaamTas="Handybag"
+              Prijs="€400,">
 
           </Product>
 
@@ -72,9 +72,9 @@ function App() {
             Tekstje = "Lorem ipsum"
           </TileFooter>
 
-        <TileFooter>
-          Image = {FotoFooter1};
-        </TileFooter>
+          <TileFooter>
+            Image = {FotoFooter1};
+          </TileFooter>
 
           <TileFooter>
             Titel = "About us"
@@ -87,7 +87,7 @@ function App() {
 
         </footer>
 
-        </>
+      </>
 
 
       // Aanpak voor het maken van een component
